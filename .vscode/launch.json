@@ -6,11 +6,12 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "externalTerminal"
+            "console": "externalTerminal",
             "args": [
                 "test.flv",
-                "48",
-                "32"
+                "128",
+                "64",
+                "on"
             ]
         },
         {

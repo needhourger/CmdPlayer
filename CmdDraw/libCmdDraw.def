@@ -1,0 +1,4 @@
+EXPORTS
+    HelloWorld @1
+    console_init @2
+    gotoxy @3
