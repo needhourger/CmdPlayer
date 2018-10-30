@@ -19,6 +19,7 @@
 * Opencv2 python
 * Pywin32
 * pydub & simpleaudio
+* ffmpeg
 
 >## Details
 
