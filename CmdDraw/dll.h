@@ -9,4 +9,5 @@
 
 DLLIMPORT void HelloWorld();
 DLLIMPORT int gotoxy(int x,int y);
+DLLIMPORT int console_init(int width,int height)
 #endif

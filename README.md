@@ -31,6 +31,8 @@
 
 > ## Usage
 
+> **请使用32位python3！！！否则无法调用dll文件**
+
 * 使用pip下载好相应依赖环境，将CmdDraw.dll以及CmdPlayer.py放在同级目录下。使用python3环境运行
 
 * 命令

@@ -9,6 +9,8 @@ import pydub
 from pydub.playback import play
 import ctypes
 
+
+
 #载入调用c函数的动态链接库
 Drawdll=ctypes.cdll.LoadLibrary("./CmdDraw.dll")
 
@@ -100,6 +102,7 @@ def Getfps(video_name):
     return ret
 
 #主程序
+#name=""
 if __name__ == "__main__":
     
     try:
@@ -138,5 +141,6 @@ if __name__ == "__main__":
     p2.join()
     if music_boot=="on":
         p3.join()
+
 
 
